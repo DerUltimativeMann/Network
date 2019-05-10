@@ -1,6 +1,9 @@
 #ifndef _BLOCK_H
 #define _BLOCK_H
 
+#define DEFAULT_WIDTH   20
+#define DEFAULT_HEIGHT  20
+
 class Block {
     private:
         int x;
@@ -10,7 +13,7 @@ class Block {
 
     public:
         Block();
-        Block(int, int, int, int);
+        Block(int x, int y, int w, int h);
         ~Block();
 
         int getX() const;
@@ -18,10 +21,10 @@ class Block {
         int getW() const;
         int getH() const;
 
-        void setX(int);
-        void setY(int);
-        void setW(int);
-        void setH(int);
+        void setX(int x);
+        void setY(int y);
+        void setW(int w);
+        void setH(int h);
 };
 
 #endif

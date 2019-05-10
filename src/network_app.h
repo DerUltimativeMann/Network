@@ -3,6 +3,7 @@
 
 /* Includes */
 #include <windows.h>
+#include "gatter.h"
 
 /* Defines */
 #define SZ_APPLICATION_NAME     "SeN_app_network"

@@ -12,7 +12,7 @@ CF = -Wall -pedantic -ansi
 LF = -lgdi32 -lopengl32
 
 # obj files
-OBJ = main.o network_app.o block.o
+OBJ = main.o network_app.o block.o gatter.o
 
 # Build commands...
 # 1) Binding the program

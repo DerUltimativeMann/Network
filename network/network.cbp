@@ -22,6 +22,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="../makefile" />
+		<Unit filename="../src/block.cpp" />
+		<Unit filename="../src/block.h" />
+		<Unit filename="../src/gatter.cpp" />
+		<Unit filename="../src/gatter.h" />
+		<Unit filename="../src/main.cpp" />
+		<Unit filename="../src/network_app.cpp" />
+		<Unit filename="../src/network_app.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
